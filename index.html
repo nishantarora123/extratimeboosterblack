@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+
+<html lang="hi">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Extra Time Booster</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #000;
+        }
+        .container {
+            width: 100%;
+            max-width: 768px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+        .bounce {
+            animation: bounce 1s infinite;
+            font-size: 22px;
+            color: red;
+            font-weight: bold;
+            text-align: center;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .highlight-strip {
+            background-color: #f2c94c;
+            color: #000;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .form-section {
+            background-color: #eee;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .form-section h2 {
+            color: #d32f2f;
+        }
+        .form-section input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .form-section button {
+            width: 100%;
+            padding: 10px;
+            background-color: #27ae60;
+            color: white;
+            border: none;
+            font-size: 16px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .timer {
+            font-size: 20px;
+            font-weight: bold;
+            color: red;
+            text-align: center;
+            margin: 10px 0;
+        }
+        img {
+            width: 100%;
+            margin: 10px 0;
+        }
+    </style>
+<style>
+body {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+* {
+    color: #fff !important;
+}
+input, select, textarea, button {
+    background-color: #222 !important;
+    color: #fff !important;
+    border: 1px solid #555 !important;
+}
+</style></head>
+<body>
+<div class="container">
+<h1 style="text-align:center;">जाने सेक्स टाइमिंग और लिंग साइज बढ़ाने की NO.1 औषधि के बारे में</h1>
+<img alt="Header Image" src="header_image.jpg"/>
+<div class="bounce">टाइमिंग और लिंग साइज़ बढ़ाने वाला भारत का पहला गारंटी वाला प्रोडक्ट</div>
+<div class="highlight-strip">100% Original दवा एक बार लेने के बाद दोबारा लेने की जरुरत नही</div>
+<div class="form-section">
+<h2>40% नहीं आज का ऑफर 86% Discount 4999₹ मात्र 699₹/- में<br/>जल्दी करे ऑफर सिर्फ आज के लिए</h2>
+<div class="timer" id="timer">00:10:00</div>
+<form>
+<input placeholder="अपना नाम लिखें" required="" type="text"/>
+<input placeholder="मोबाइल नंबर" required="" type="text"/>
+<input placeholder="पता" required="" type="text"/>
+<button type="submit">अभी खरीदें</button>
+</form>
+</div>
+<img alt="Offer Image" src="offer_image.webp"/>
+<p style="font-weight:bold; text-align:center;">लिंग मे ढीलापन टेढ़ापन ख़त्म करे<br/>1 गोली खाते ही 1 घंटा लगतार सेक्स करे</p>
+<img alt="Ad Image 2" src="ad_image_2.jpg"/>
+<img alt="Ad Image 3" src="ad_image_3.jpg"/>
+</div>
+<script>
+        // Timer Countdown
+        let timer = 600;
+        const timerElement = document.getElementById('timer');
+        setInterval(() => {
+            const minutes = String(Math.floor(timer / 60)).padStart(2, '0');
+            const seconds = String(timer % 60).padStart(2, '0');
+            timerElement.textContent = `${minutes}:${seconds}`;
+            if (timer > 0) timer--;
+        }, 1000);
+    </script>
+</body>
+</html>
